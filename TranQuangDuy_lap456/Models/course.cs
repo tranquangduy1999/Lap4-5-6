@@ -6,7 +6,7 @@ using System.Web;
 
 namespace TranQuangDuy_lap456.Models
 {
-    public class course
+    public class Course
     {
         public int Id { get; set; }
         public ApplicationUser Lecturer { get; set; }
@@ -19,6 +19,8 @@ namespace TranQuangDuy_lap456.Models
         public Category Category { get; set; }
         [Required]
         public byte CategoryId { get; set; }
+
+   
     }
 
     }

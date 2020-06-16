@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿
+using System.ComponentModel.DataAnnotations;
 
 namespace TranQuangDuy_lap456.Models
 {

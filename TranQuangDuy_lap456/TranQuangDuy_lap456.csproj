@@ -218,7 +218,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbcontext.cs" />
     <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\course.cs" />
+    <Compile Include="Models\Course.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
