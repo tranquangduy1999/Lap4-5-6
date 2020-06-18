@@ -7,13 +7,13 @@ namespace TranQuangDuy_lap456.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddNameColumnToApplicationUser : IMigrationMetadata
+    public sealed partial class InitialModel : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddNameColumnToApplicationUser));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
         
         string IMigrationMetadata.Id
         {
-            get { return "202006161123372_AddNameColumnToApplicationUser"; }
+            get { return "202006180845084_InitialModel"; }
         }
         
         string IMigrationMetadata.Source

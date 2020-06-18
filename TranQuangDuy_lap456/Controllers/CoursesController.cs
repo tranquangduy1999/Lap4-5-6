@@ -41,8 +41,8 @@ namespace TranQuangDuy_lap456.Controllers
             var course = new Course
             {
                 LecturerId = User.Identity.GetUserId(),
-                DataTime = viewModel.GetDateTime(),
-               
+                DateTime = viewModel.GetDateTime(),
+               // CategoryId = viewModel.Category,
                 Place = viewModel.Place
             };
             _dbContext.Courses.Add(course);
