@@ -18,17 +18,18 @@
                 </div>
                 <div class="details">
                     <span class="lecturer">
-                        @course.Lecturer.Name             
+                        @course.Lecturer.Name
                     </span>
                     <span class="category">
                         @course.Category.Name
                     </span>
                     <button data-course-id="@course.Id" class="btn btn-default btn-sm js-toggle-attendance">Going?</button>
-</div>
+                </div>
             </li>
         }
     </ul>
-    @section scripts{
+</div>
+    @*@section scripts{
     <script>
         $(document).ready(function () {
             $(".js-toggle-attendance").click(function (e) {
@@ -45,5 +46,4 @@
                     });
             });
         });
-    </script>
-</div>
+    </script>*@
